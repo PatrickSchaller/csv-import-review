@@ -1,0 +1,6 @@
+{
+  "input_file": "catalog.csv",
+  "input_rows": 12,
+  "accepted_rows": 5,
+  "rejected_rows": 7
+}

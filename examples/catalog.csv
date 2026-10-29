@@ -1,0 +1,13 @@
+sku,name,quantity
+00017,Brass cabinet handle,12
+WD-310,"Birch panel, 18 mm",8
+HW-208,Steel corner bracket,24
+DUP-1,First copy of item,5
+DUP-1,Second copy of item,7
+BAD-NAME,   ,3
+BAD-QTY,Oak dowel,5.5
+BAD-NEG,Replacement knob,-1
+ hw-104 , Brass handle ,0005
+=2+2,Unsafe item code,1
+SAFE-NAME,=2+2,1
+ZERO,No stock yet,0

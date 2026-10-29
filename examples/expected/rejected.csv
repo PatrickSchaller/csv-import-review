@@ -1,0 +1,8 @@
+record_number,line_start,line_end,reasons,original_values_json
+4,5,5,SKU occurs more than once; all occurrences are rejected.,"[""DUP-1"", ""First copy of item"", ""5""]"
+5,6,6,SKU occurs more than once; all occurrences are rejected.,"[""DUP-1"", ""Second copy of item"", ""7""]"
+6,7,7,Name must contain 1 to 200 characters without control characters.,"[""BAD-NAME"", ""   "", ""3""]"
+7,8,8,"Quantity must be a whole number from 0 to 1000000, using ASCII digits only.","[""BAD-QTY"", ""Oak dowel"", ""5.5""]"
+8,9,9,"Quantity must be a whole number from 0 to 1000000, using ASCII digits only.","[""BAD-NEG"", ""Replacement knob"", ""-1""]"
+10,11,11,"SKU must start with an ASCII letter or digit and use at most 64 letters, digits, dots, underscores, or hyphens.","[""=2+2"", ""Unsafe item code"", ""1""]"
+11,12,12,"Name cannot begin with a spreadsheet formula character (=, +, -, or @).","[""SAFE-NAME"", ""=2+2"", ""1""]"
